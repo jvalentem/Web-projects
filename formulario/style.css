@@ -34,8 +34,10 @@ footer,.middleText{
 .right{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    width: 50%; 
 }
+
 .upButton{
     width: 75%;
     background-color: rgb(124, 7, 167);
@@ -53,19 +55,19 @@ footer,.middleText{
 .right form{
     margin:0 100px;
     padding:50px;
-    width:500px;
+    width:450px;
     border-radius: 8px;
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 .middleText{
-    width: 30%;
-    text-align: justify;
-    
+    width: 50%;
+    text-align: start;
+   
 }
 form div{
-    width: 91.5%;
+    width: 90.5%;
 }
 .middle form input, form button{
     width: 100%;
@@ -83,4 +85,25 @@ form button:hover{
 }
 
 
+@media screen and (max-width:1220px) {
+    .middle{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right{
+        margin:auto;
+    }
+    .upButton{
+        width: 50%;
+    }
+    .middle form{
+        margin:auto;
+        padding:20px;
+    }
+    .middleText{
+        text-align: center;
+        margin:0;
+        width: 50%;
+    }
+}
 
