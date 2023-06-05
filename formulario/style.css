@@ -69,7 +69,7 @@ footer,.middleText{
 form div{
     width: 90.5%;
 }
-.middle form input, form button{
+.right form input, form button{
     width: 100%;
     margin:10px auto;
     padding:20px;
@@ -100,10 +100,19 @@ form button:hover{
         margin:auto;
         padding:20px;
     }
+    .middle > div{
+        /* width: 100%; */
+    }
     .middleText{
         text-align: center;
         margin:0;
         width: 50%;
+    }
+    .right form{
+        width: 250px;
+    }
+    .right form input{
+        padding: 10px;
     }
 }
 
