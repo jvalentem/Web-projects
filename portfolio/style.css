@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+header{
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: #000;
+    color:white;
+}
+.headerContent{
+    display: inherit;
+    flex-direction: column;
+}
+header nav{
+    margin: 10px 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+header a:hover{
+    text-decoration:underline;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+#sobremim{
+    padding: 30px;
+    background-image: url(https://img.freepik.com/fotos-gratis/mesa-com-um-laptop-uma-xicara-de-cafe-e-um-calendario_1112-145.jpg?w=996&t=st=1686271908~exp=1686272508~hmac=248bb93321237955afe39e42cfc1ff1bca9a267b01dc077a4e748f7ad1588b20);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.esquerda,.direita{
+    padding: 20px;
+    background: #fff;
+    width: fit-content;
+}
+.direita{
+    width: 35%;
+    padding: 30px 50px;
+    height: fit-content;
+    /* margin: 0 auto; */
+}
+
+.foto{
+    background-image: url(https://pps.whatsapp.net/v/t61.24694-24/347016531_2570462913091666_6232607112362223613_n.jpg?ccb=11-4&oh=01_AdS2wiFrZH6pubLsVetYNm4PPKLu3oHRTRHOHfhuTARcmA&oe=648F6A97);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    height: 220px;
+}
+
+#objetivos{
+    background: #d6d6da;
+}
+#habilidades{
+    background:#c3c3c3 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocks{
+    width: 75%;
+    padding:20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.blocks img{
+    width: 125px;
+    height: 140px;
+    
+}
