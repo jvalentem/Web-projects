@@ -46,7 +46,9 @@ header a:hover{
     display: flex;
     justify-content: space-evenly;
 }
-
+#historia div{
+    padding:200px;
+}
 .esquerda,.direita{
     padding: 20px;
     background: #fff;
@@ -82,10 +84,35 @@ header a:hover{
     padding:20px;
     display: flex;
     gap: 30px;
+   
     flex-wrap: wrap;
 }
 .blocks img{
+    border:1px solid rgb(161, 156, 156);
+    padding: 10px;
     width: 125px;
     height: 140px;
     
+}
+
+
+@media screen and (max-width:620px){
+    #historia div{
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    #sobremim{
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+    .direita{
+        width: 70%;
+    }
+    .blocks{
+        flex-direction: column;
+        align-items: center;
+    }
 }
