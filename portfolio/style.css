@@ -13,6 +13,7 @@ header{
     background: #000;
     color:white;
 }
+
 .headerContent{
     display: inherit;
     flex-direction: column;
@@ -62,7 +63,7 @@ header a:hover{
 }
 
 .foto{
-    background-image: url(https://pps.whatsapp.net/v/t61.24694-24/347016531_2570462913091666_6232607112362223613_n.jpg?ccb=11-4&oh=01_AdS2wiFrZH6pubLsVetYNm4PPKLu3oHRTRHOHfhuTARcmA&oe=648F6A97);
+    background-image: url('./imagens/foto\ frontal.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,13 +97,10 @@ header a:hover{
 }
 
 
-@media screen and (max-width:620px){
+@media screen and (max-width:820px) {
     #historia div{
         padding: 100px;
     }
-}
-
-@media screen and (max-width:820px) {
     #sobremim{
         flex-direction: column;
         align-items: center;
